@@ -17,7 +17,7 @@ let packageInfo = {
 }
 
 // 建立websocket
-const wss = 'ws://192.168.1.225:9999'
+const wss = 'ws://192.168.7.233:9999'
 let ws = ''
 
 const connectWebsocket = (callback = () => {}) => {
